@@ -83,19 +83,18 @@ class Carrinho
         }
         $this->items = [];
     }
+    
     public function applyCoupon(string $coupon): string
-{
-    $coupon = strtoupper($coupon);
+    {
+        $coupon = strtoupper($coupon);
 
-    if ($coupon === "DESCONTO10") {
-        $total = $this->getTotal();
-        $discount = $total * 0.10;
-        $this->discount = $discount;
+        if ($coupon === "DESCONTO10") {
+            $total = $this->getTotal();
+            $discount = $total * 0.10;
+            $this->discount = $discount;
 
         return "Coupom applyed! 10% decreased value.";
+        }
+        return "Invalid coupon!.";
     }
-
-    return "Invalid coupon!.";
-}
-
 }
