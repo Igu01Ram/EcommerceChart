@@ -1,5 +1,5 @@
 # Carrinho de Compras para implementar o conteúdo abordado em design patterns. Aplicado a PSR-12 para melhor organização e construção do código
-NOME: IGOR RAMOS, RA 1992632 | ISAQUE CASTRO, RA
+NOME: IGOR RAMOS, RA 1992632 | ISAQUE CASTRO, RA 1993141
 
 ## Estrutura 
 carrinho/
