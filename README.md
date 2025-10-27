@@ -2,6 +2,7 @@
 NOME: IGOR RAMOS, RA 1992632 | ISAQUE CASTRO, RA 1993141
 
 ## Estrutura 
+```
 carrinho/
 ├── src/
 │   ├── Carrinho.php
@@ -9,6 +10,7 @@ carrinho/
 ├── docs/
 ├── index.php
 └── README.md
+```
 
 # Como executar pelo xampp
 Extraia o conteúdo do projeto para a pasta `htdocs` do XAMPP, inicie o Apache no painel do XAMPP e acesse (http://localhost/carrinho/index.php). 
